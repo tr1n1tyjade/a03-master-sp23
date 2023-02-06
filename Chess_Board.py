@@ -1,12 +1,14 @@
 import turtle
 
 def drawsquare (zaki, size):
+    """" I defined a function drawsquare to get turtle "zaki" to draw a square with "size" size"""
     for i in range(4):
         zaki.forward(size)
         zaki.left(90)
 
 
 def main ():
+    """I used the main function to define some attributes and invoke drawsquare function."""
     wn = turtle.Screen()
     wn.bgcolor("gray")
     zaki = turtle.Turtle()
