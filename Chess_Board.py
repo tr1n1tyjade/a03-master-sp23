@@ -5,6 +5,7 @@ def drawsquare (zaki, size):
         zaki.forward(size)
         zaki.left(90)
 
+
 def main ():
     wn = turtle.Screen()
     wn.bgcolor("gray")
