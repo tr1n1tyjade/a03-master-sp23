@@ -24,7 +24,7 @@ def build():
     turtle.left(90)
 
 
-def walls():
+def wall():
     turtle.color("#49524b")
     turtle.begin_fill()
     turtle.forward(200)
@@ -287,7 +287,7 @@ def frame2():
 
 def main():
     build()
-    walls()
+    wall()
     pillar()
     wall2()
     pillar2()
