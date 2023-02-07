@@ -19,7 +19,7 @@ import turtle
 wn= turtle.Screen()
 turtle= turtle.Turtle()
 wn.colormode(255)
-wn.bgcolor(1, 59, 200)
+wn.bgcolor(10, 32, 69)
 turtle.pencolor()
 
 
