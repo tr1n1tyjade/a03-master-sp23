@@ -15,7 +15,6 @@
 ######################################################################
 
 import turtle
-import random
 
 wn= turtle.Screen()
 turtle= turtle.Turtle()
@@ -37,7 +36,7 @@ def bun(x): # Makes first bun
 
 def meat(): # makes meat
     turtle.begin_fill()
-    turtle.fillcolor(205,92,92)
+    turtle.fillcolor(208,95,92)
     turtle.left(120)
     turtle.forward(20)
     turtle.right(70)
