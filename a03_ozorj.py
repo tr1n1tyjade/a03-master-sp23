@@ -17,11 +17,13 @@ wn.bgcolor(179, 225, 172)
 turtle.pensize(2)
 turtle.pencolor("#947748")
 
+
 # function for foundation
 def build():
     turtle.forward(900)
     turtle.backward(250)
     turtle.left(90)
+
 
 # function for wall
 def wall():
@@ -77,6 +79,7 @@ def pillar():
     turtle.forward(2)
     turtle.forward(180)
 
+
 # function for wall
 def wall2():
     turtle.speed(5)
@@ -90,6 +93,7 @@ def wall2():
     turtle.end_fill()
     turtle.left(90)
     turtle.forward(187)
+
 
 # function for outline
 def pillar2():
@@ -118,6 +122,7 @@ def pillar2():
     turtle.forward(16)
     turtle.end_fill()
     turtle.right(225)
+
 
 # function for roof
 def roof():
@@ -154,6 +159,7 @@ def roof():
     turtle.forward(130)
     turtle.end_fill()
 
+
 # function for trims
 def trims():
     turtle.speed(5)
@@ -181,6 +187,7 @@ def trims():
     turtle.right(134)
     turtle.forward(240)
 
+
 # function for the windows
 def wind():
     turtle.speed(5)
@@ -198,6 +205,7 @@ def wind():
     turtle.right(90)
     turtle.forward(130)
     turtle.end_fill()
+
 
 # function for the frame
 def frame():
@@ -224,6 +232,7 @@ def frame():
     turtle.right(90)
     turtle.forward(130)
 
+
 # function for the door
 def door():
     turtle.color("#473728")
@@ -241,6 +250,7 @@ def door():
     turtle.right(90)
     turtle.forward(135)
     turtle.end_fill()
+
 
 # function for windows
 def wind2():
@@ -260,6 +270,7 @@ def wind2():
     turtle.right(90)
     turtle.forward(95)
     turtle.end_fill()
+
 
 # Function to make frames
 def frame2():
@@ -283,6 +294,7 @@ def frame2():
     turtle.right(90)
     turtle.forward(50)
     turtle.hideturtle()
+
 
 # This function runs all the other functions
 def main():
