@@ -54,5 +54,3 @@ def main ():
 main()
 
 wn.exitonclick()
-
-#thiscodeisfinished
